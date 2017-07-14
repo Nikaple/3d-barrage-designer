@@ -340,7 +340,7 @@ class Pattern {
         //draw every line of polygon
         for (let i = 0; i < paramObj.side; i++) {
             paramLine.number = typeof number === 'number'
-                ? number - 1
+                ? number
                 : number[i];
             //the length and direction of vector
             paramLine.startPos = pos[i];
@@ -636,10 +636,11 @@ const data = {
             type: 'polygon',
             centerPos: new Dot(200, 600),
             side: 5,
-            numPerSide: 8,
+            numPerSide: 3,
             radius: 100,
             angle: 0,
-            spin: new Vector(0, 0, 1)
+            scale: 1.5,
+            spin: new Vector(2, 0, 0)
         },
         {
             type: 'polygon',
