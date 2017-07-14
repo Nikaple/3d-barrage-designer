@@ -78,7 +78,6 @@ class Vector {
         if (!(normalVector instanceof Vector)) {
             throw new TypeError(`Cannot rotate the ${typeof normalVector}`);
         }
-        const mag = normalVector.magnitude;
         normalVector.normalize();
         const x = normalVector.x,
             y = normalVector.y,
@@ -815,7 +814,7 @@ function draw() {
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     ctx.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     ctx.globalCompositeOperation = 'lighter';
-    imagePreload("./img/sprBullet.png", function() {
+    imagePreload("./images/sprBullet.png", function() {
         const pat = new Pattern();
         currentData.forEach((data) => {
             switch(data.type) {
