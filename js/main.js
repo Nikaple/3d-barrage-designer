@@ -803,7 +803,7 @@ window.requestAnimFrame = (function() {
 })();
 
 const keys = Object.keys(data);
-let currentIndex = 3;
+let currentIndex = 0;
 let currentData = data[keys[currentIndex]];
 canvas.addEventListener('click', function(){
     currentIndex = (currentIndex + 1) % keys.length;
