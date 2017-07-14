@@ -1,0 +1,25 @@
+{
+  "name": "3d-barrage-designer",
+  "version": "0.0.1",
+  "description": "Design 3d barrages for GameMaker!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikaple/3d-barrage-designer.git"
+  },
+  "keywords": [
+    "3d",
+    "barrage",
+    "danmaku",
+    "gamemaker"
+  ],
+  "author": "Nikaple",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nikaple/3d-barrage-designer/issues"
+  },
+  "homepage": "https://github.com/Nikaple/3d-barrage-designer#readme"
+}
