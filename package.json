@@ -1,6 +1,6 @@
 {
   "name": "3d-barrage-designer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Design your own 3d barrage!",
   "main": "index.html",
   "scripts": {
