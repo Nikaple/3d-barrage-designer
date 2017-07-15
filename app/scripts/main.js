@@ -796,7 +796,7 @@
         };
     })();
 
-    function draw(img) {
+    function draw() {
         ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
         ctx.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
         currentData.forEach((data) => {
