@@ -1,5 +1,8 @@
 # 3d-barrage-designer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Nikaple/3d-barrage-designer.svg)](https://greenkeeper.io/)
+
+
 ## Install
 
 clone the project, and run `index.html`.
